@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fairsum — Politique de confidentialité</title>
+<meta name="description" content="Politique de confidentialité de l'application mobile Fairsum." />
+<style>
+  :root {
+    --ink: #121A23;
+    --ink2: #1B2531;
+    --copper: #C98B4E;
+    --paper: #F4EDE2;
+    --text: #E8E2D6;
+    --text-muted: #9BA3AE;
+    --hairline: #2A3542;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--ink);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 48px 20px 80px; }
+  header { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; }
+  .logo { flex-shrink: 0; }
+  h1 { font-size: 22px; margin: 0; color: var(--paper); }
+  .updated { color: var(--text-muted); font-size: 13px; margin: 0 0 36px; }
+  h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: var(--copper);
+    margin: 36px 0 12px;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 8px;
+  }
+  h3 { font-size: 14.5px; color: var(--paper); margin: 20px 0 8px; }
+  p, li { font-size: 14.5px; color: var(--text); }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--copper); }
+  strong { color: var(--paper); }
+  .callout {
+    background: var(--ink2);
+    border: 1px solid var(--hairline);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 20px 0;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px dashed var(--hairline);
+    color: var(--text-muted);
+    font-size: 12.5px;
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <svg class="logo" width="36" height="36" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <mask id="ticket" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+            <rect x="80" y="112" width="352" height="288" rx="44" fill="#ffffff"/>
+            <circle cx="80" cy="256" r="28" fill="#000000"/>
+            <circle cx="432" cy="256" r="28" fill="#000000"/>
+            <rect x="168" y="148" width="60" height="216" rx="8" fill="#000000"/>
+            <rect x="190" y="148" width="154" height="48" rx="8" fill="#000000"/>
+            <rect x="190" y="232" width="122" height="48" rx="8" fill="#000000"/>
+          </mask>
+        </defs>
+        <rect width="512" height="512" rx="110" fill="#121A23"/>
+        <rect width="512" height="512" fill="#C98B4E" mask="url(#ticket)"/>
+        <line x1="118" y1="256" x2="396" y2="256" stroke="#121A23" stroke-width="8" stroke-dasharray="16 8"/>
+      </svg>
+      <h1>Fairsum — Politique de confidentialité</h1>
+    </header>
+    <p class="updated">Dernière mise à jour : 30 octobre 2026</p>
+
+    <p>Cette politique de confidentialité décrit comment l'application mobile <strong>Fairsum</strong> (« l'application », « nous ») traite vos informations.</p>
+
+    <h2>1. Résumé</h2>
+    <p>Fairsum est conçue pour fonctionner <strong>entièrement sur votre téléphone</strong>. Nous ne proposons pas de création de compte, nous ne faisons pas transiter vos données financières (dépenses, soldes d'épargne, objectifs, montants de salaire) par un serveur, et nous ne vendons aucune donnée.</p>
+    <p>La seule collecte de données provient de l'affichage de publicités, via Google AdMob, décrit en détail ci-dessous.</p>
+
+    <h2>2. Données stockées localement sur votre appareil</h2>
+    <p>Les informations suivantes restent uniquement sur votre téléphone (stockage local de l'application) et ne sont jamais envoyées à nos serveurs, car nous n'en avons pas :</p>
+    <ul>
+      <li>Les voyages créés dans Split Trip (nom du voyage, participants, dépenses, devise, dates)</li>
+      <li>Les objectifs et contributions d'épargne, y compris les informations facultatives que vous choisissez de renseigner (salaire ou dépenses mensuelles de base, pour calculer un fonds d'urgence suggéré ; valeur du nisab et date de début du hawl, pour le calculateur de Zakat)</li>
+      <li>Vos préférences (langue, thème clair/sombre)</li>
+    </ul>
+    <p>Vous pouvez exporter ces données à tout moment dans un fichier JSON pour en garder une copie, et les réimporter sur le même ou un autre appareil. Vous pouvez aussi tout supprimer en désinstallant l'application.</p>
+    <div class="callout">
+      <strong>Nous (les développeurs de Fairsum) n'avons techniquement pas accès à ces données.</strong> Elles ne quittent votre appareil que si vous choisissez vous-même de les exporter et de les partager.
+    </div>
+
+    <h2>3. Publicités (Google AdMob)</h2>
+    <p>Fairsum affiche des publicités fournies par <strong>Google AdMob</strong> pour financer son développement et rester gratuite.</p>
+    <p>Pour afficher ces publicités, Google AdMob et ses partenaires publicitaires peuvent collecter et traiter certaines données automatiquement, notamment :</p>
+    <ul>
+      <li>un identifiant publicitaire propre à votre appareil (ex. : Android Advertising ID),</li>
+      <li>des informations techniques sur votre appareil (modèle, version du système, langue, pays approximatif),</li>
+      <li>des données d'interaction avec les publicités (affichage, clics).</li>
+    </ul>
+    <p>Ces données sont traitées par Google selon la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité de Google</a> et, le cas échéant, les règles de la <a href="https://support.google.com/admob/answer/6128543" target="_blank" rel="noopener">plateforme publicitaire AdMob</a>.</p>
+
+    <h3>Votre consentement (utilisateurs en Europe / Royaume-Uni)</h3>
+    <p>Si vous vous trouvez dans l'Espace économique européen ou au Royaume-Uni, un formulaire de consentement (conforme au cadre de transparence et de consentement de l'IAB) vous est présenté au premier lancement de l'application, vous permettant d'accepter ou de refuser la publicité personnalisée. Vous pouvez modifier votre choix à tout moment depuis <strong>Réglages → Gérer mes choix de publicité</strong>.</p>
+
+    <h2>4. Ce que nous ne faisons pas</h2>
+    <ul>
+      <li>Nous ne demandons pas de création de compte ni d'adresse e-mail pour utiliser l'application.</li>
+      <li>Nous ne collectons, ne stockons ni ne transmettons vos montants financiers, soldes, ou objectifs d'épargne sur un serveur.</li>
+      <li>Nous ne vendons aucune donnée personnelle.</li>
+      <li>Fairsum n'est pas destinée aux enfants de moins de 13 ans et ne collecte pas sciemment de données auprès d'eux.</li>
+    </ul>
+
+    <h2>5. Vos droits</h2>
+    <p>Comme vos données financières restent sur votre appareil, vous en avez le contrôle total : vous pouvez les consulter, les exporter ou les supprimer (en désinstallant l'application) à tout moment, sans avoir à nous contacter.</p>
+    <p>Pour toute question concernant cette politique ou les données traitées par les publicités, vous pouvez nous contacter à : <a href="mailto:ziz.ilyas.ziz@gmail.com">ziz.ilyas.ziz@gmail.com</a></p>
+
+    <h2>6. Modifications futures</h2>
+    <p>Si une future version de Fairsum introduit un compte utilisateur ou une synchronisation entre appareils (fonctionnalité de partage multi-utilisateurs), cette politique sera mise à jour avant la sortie de cette fonctionnalité pour refléter précisément les nouvelles données traitées, où elles sont stockées, et comment les supprimer.</p>
+
+    <footer>© 2026 Fairsum</footer>
+  </div>
+</body>
+</html>
